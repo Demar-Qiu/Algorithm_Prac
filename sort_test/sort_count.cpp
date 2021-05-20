@@ -3,7 +3,7 @@
 using namespace std;
 
 /* 
-  计数排序算法。  
+  计数排序算法。  （是一种线性时间排序算法）
   
   时间复杂度 O(n+m） n为原始数列规模，m为统计数组规模
 
@@ -65,7 +65,7 @@ int* sortCount(int arr[],int size)
 
 }
 
-int main()
+int main_4()
 {
 	int arrm[] = { 95,94,91,98,99,90,99,93,91,92 };
 	int size = sizeof(arrm) / sizeof(int);
